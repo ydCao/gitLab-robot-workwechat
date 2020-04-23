@@ -38,8 +38,8 @@ async function handlePR(body, robotid) {
     const robot = new ChatRobot(
         robotid
     );
-    let {object_kind='', user:{name, avatar_url}, project:{name:proName, web_url}, object_attributes:{title, target_branch, source_branch, url}} = body;
-    const mdMsg = `[${name}](${avatar_url})在 [${proName}](${web_url}) 中发起了一次${object_kind}
+    let {object_kind='', user:{name, avatar_url}, project:{name:proName, web_url}, object_attributes:{title, state, target_branch, source_branch, url}} = body;
+    const mdMsg = `[${name}](${avatar_url})在 [${proName}](${web_url}) 中${state}了一次${object_kind}
                     标题：${title}
                     源分支：${source_branch}
                     目标分支：${target_branch}
