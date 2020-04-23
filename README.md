@@ -19,3 +19,5 @@
 ![](https://tuchuang-1251767583.cos.ap-guangzhou.myqcloud.com/git-robot/save_new.png)
 
 7. ok!可以填到GitLab的webhook里了，类型选择`Send me everything`，也可以自定义，url填上上面的url，**别忘了要在后面加上`?id={你创建的微信机器人id}`作为参数**。
+
+9. github和gitlab实现方式有些区别。[请点击这里](https://github.com/LeoEatle/git-webhook-wework-robot)本项目在此基础上实现，再次表示感谢。
