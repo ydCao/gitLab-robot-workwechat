@@ -3,7 +3,8 @@
 1. `git clone https://github.com/ydCao/gitLab-robot-workwechat.git`
 
 2. 企业微信拉个群，添加一个机器人，你会得到一些机器人的信息。见图，保留这个key！
-![](https://tuchuang-1251767583.cos.ap-guangzhou.myqcloud.com/wework-demo.jpg)
+<img width="560" alt="image" src="https://user-images.githubusercontent.com/20475078/160563599-5c7b85cf-a2a7-4ba2-afaf-27a053a2b6a8.png">
+
 
 3. 注册并登陆腾讯云管理后台，新建一个云函数，可以先选个Node的Helloworld模板
 
